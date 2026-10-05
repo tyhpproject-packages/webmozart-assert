@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/webmozart-assert",
+    "description": "Tyhp type definitions for webmozart/assert 2.4.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.4.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/webmozart-assert-impl": "~2.4.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/webmozart-assert-impl"
+        }
+    }
+}
